@@ -1,0 +1,216 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+.header-background {
+  background-color: rgba(34, 49, 52, 0.9);
+  height: 65px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.header-nakami {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header-nakami img {
+  width: 124px;
+  padding-top: 20px;
+  
+}
+
+.header-nakami a {
+  float: right;
+  display: block;
+  line-height: 65px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 0 25px;
+  
+}
+
+.top-wrapper {
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  padding: 180px 0 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.intro {
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+
+.first {
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.signup {
+  text-align: center;
+  color: white;
+}
+
+.signup p{
+  margin: 15px 0;
+  opacity: 0.8;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.new {
+  background-color: #239b76;
+  
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.main-wrapper {
+  text-align: center;
+  width: 100%;
+  height: 580px;
+  background-color: #f7f7f7;
+}
+
+.main-wrapper h2{
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+  bold: normal;
+}
+
+.lessons {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.lesson {
+  width: 25%;
+  float: left;
+}
+
+.naiyou {
+  width: 80%;
+  display: inline-block;
+  padding-top:15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.lesson-icon {
+  position: relative;
+}
+ 
+.lang {
+  display: inline-block;
+  color: white;
+  position: absolute;
+  top: 85px;
+  left: 0;
+  right: 0;
+}
+
+.footer {
+  width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footerh {
+  width: 100%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #5f5d60;
+}
+
+
+.footerbtn {
+  margin-bottom: 80px;
+  background-color: #5dca88;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0 7px #1a7940;
+  opacity: 0.8;
+}
+
+.footerbtn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+
+.footerbtn:hover {
+  opacity: 1;
+}
+
+.footerbtn a{
+  display: block;
+  cursor: pointer; 
+  color: white;
+  padding: 15px 40px;
+}
+
+footer {
+  border-top: solid 1px #eee;
+}
+
+.footer-oya {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.footerimg img {
+  width: 124px;
+  margin-top: 30px;
+  
+}
+
+.footerp {
+  font-size: 12px;
+  color: #b3aeb5;
+  margin-bottom: 30px;
+}
